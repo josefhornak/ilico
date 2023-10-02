@@ -1,0 +1,106 @@
+/* App.css */
+
+body {
+  margin: 0;
+  padding: 75px;
+  font-family: 'Montserrat', sans-serif;
+  background-color: black;
+  color: white;
+}
+
+.header {
+  display: flex;
+  background-color: black;
+  padding: 50px 50px; /* Increase top and bottom padding for more space */
+}
+
+.ilicon-logo {
+  width: 50px; /* Adjust the size of the logo as needed */
+}
+
+h1 {
+  margin: 0;
+  font-size: 24px; /* Adjust the font size as needed */
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px; /* Add margin to separate the table from other content */
+  text-align: center; /* Center content within table cells */
+}
+
+th, td {
+  border: 1px solid white; /* Add borders to table cells */
+  padding: 8px;
+}
+
+th {
+  background-color: #333; /* Header background color */
+  color: white; /* Header text color */
+}
+
+tr:nth-child(even) {
+  background-color: #444; /* Even row background color */
+}
+
+tr:nth-child(odd) {
+  background-color: #555; /* Odd row background color */
+}
+
+/* Pagination buttons */
+.pagination {
+  display: flex;
+  justify-content: center; /* Center the buttons horizontally */
+  margin-top: 20px; /* Add margin to separate the pagination from the table */
+}
+
+.pagination button {
+  background-color: #007BFF; /* Button background color */
+  color: white; /* Button text color */
+  border: none; /* Remove button border */
+  padding: 10px 20px; /* Adjust padding as needed */
+  margin: 0 5px; /* Add margin between buttons */
+  cursor: pointer;
+  border-radius: 5px; /* Add rounded corners to buttons */
+  transition: background-color 0.3s ease; /* Smooth hover transition */
+}
+
+.pagination button:hover {
+  background-color: #0056b3; /* Change background color on hover */
+}
+
+.pagination button:disabled {
+  background-color: #ccc; /* Disabled button background color */
+  cursor: not-allowed; /* Change cursor for disabled buttons */
+}
+
+/* Search input */
+.search-container {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.search-input {
+  flex: 1; /* Take remaining space */
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.submit-button {
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin-left: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+}
